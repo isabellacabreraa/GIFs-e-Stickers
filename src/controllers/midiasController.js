@@ -204,5 +204,5 @@ const categoriaFiltrada = (req,res) =>  {
 
 
 
-export { getAllMidias, getById, createMidia};
+export { getAllMidias, getById, createMidia, deleteMidia, updateMidia, categoriaFiltrada};
 
