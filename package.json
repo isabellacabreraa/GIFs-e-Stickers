@@ -1,0 +1,19 @@
+{
+  "name": "atividadeavaliativa_isabellapinessocabrera",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "keywords": ["node.js", "avaliativa", "gifs e stickers"],
+  "author": "Isabella Pinesso Cabrera",
+  "license": "MIT",
+  "description": "Atividade Avaliativa sobre API com o tema Banco de GIFs e Stickers usando MVC",
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
