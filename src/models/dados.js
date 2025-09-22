@@ -6,7 +6,7 @@ const midias = [
         origem: "Instagram",
         tags: ["happy", "cute", "smiling"],
         formato: "JPEG",
-        tamanho: "150 KB", 
+        tamanho: 0.15, 
         downloads: 12500,
         dataCriacao: "19/09/2025 10:15"
     },
@@ -17,7 +17,7 @@ const midias = [
         origem: "Reddit",
         tags: ["confused", "curious", "dog"],
         formato: "PNG",
-        tamanho: "210 KB",
+        tamanho: 0.20,
         downloads: 50000,
         dataCriacao: "19/09/2025 10:16"
     },
@@ -28,7 +28,7 @@ const midias = [
         origem: "Giphy",
         tags: ["happy", "clapping", "congratulations"],
         formato: "GIF",
-        tamanho: "850 KB",
+        tamanho: 0.83,
         downloads: 150000,
         dataCriacao: "19/09/2025 10:17"
     },
@@ -39,7 +39,7 @@ const midias = [
         origem: "DeviantArt",
         tags: ["action", "fighting", "epic"],
         formato: "WEBP",
-        tamanho: "320 KB",
+        tamanho: 0.31,
         downloads: 8700,
         dataCriacao: "19/09/2025 10:18"
     },
@@ -50,7 +50,7 @@ const midias = [
         origem: "TikTok",
         tags: ["angry", "upset", "baby"],
         formato: "PNG",
-        tamanho: "95 KB",
+        tamanho: 0.09,
         downloads: 25000,
         dataCriacao: "19/09/2025 10:19"
     },
@@ -61,7 +61,7 @@ const midias = [
         origem: "Pinterest",
         tags: ["sad", "heartbroken", "crying"],
         formato: "WEBP",
-        tamanho: "78 KB",
+        tamanho: 0.08,
         downloads: 18000,
         dataCriacao: "19/09/2025 10:20"
     },
@@ -72,7 +72,7 @@ const midias = [
         origem: "Twitter",
         tags: ["anxious", "stress", "humor"],
         formato: "GIF",
-        tamanho: "980 KB",
+        tamanho: 0.96 ,
         downloads: 75000,
         dataCriacao: "19/09/2025 10:21"
     },
@@ -83,7 +83,7 @@ const midias = [
         origem: "Unsplash",
         tags: ["cute", "sleepy", "calm"],
         formato: "JPEG",
-        tamanho: "280 KB",
+        tamanho: 0.27,
         downloads: 9500,
         dataCriacao: "19/09/2025 10:22"
     },
@@ -94,7 +94,7 @@ const midias = [
         origem: "Pixiv",
         tags: ["thinking", "confused", "serious"],
         formato: "PNG",
-        tamanho: "155MB",
+        tamanho: 0.15,
         downloads: 11000,
         dataCriacao: "19/09/2025 10:23"
     },
@@ -105,7 +105,7 @@ const midias = [
         origem: "Reddit",
         tags: ["cute", "funny", "surprised"],
         formato: "WEBP",
-        tamanho: "110 KB",
+        tamanho: 0.11,
         downloads: 32000,
         dataCriacao: "19/09/2025 10:24"
     }
