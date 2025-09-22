@@ -1,9 +1,10 @@
 import express from "express";
-import { getAllMidias } from "../controllers/midiasController.js";
+import { getAllMidias, getById } from "../controllers/midiasController.js";
 
 const router = express.Router();
 
 router.get("/", getAllMidias);
+router.get("/:id", getById);
 
 
 

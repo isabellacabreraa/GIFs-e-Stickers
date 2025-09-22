@@ -8,6 +8,23 @@ const getAllMidias = (req,res) => {
     });
 }
 
+const getById = (req,res) => {
+    let id = parseInt(req.params.id);
+
+    const midia = midias.find((m) => m.id === id);
+
+    if (midia) {
+        res.status(200).json({
+            success:true,
+            midia: midia
+        });
+    }
+
+    res.status(400).json({
+        success: false,
+        message: "Mídia não encontrada"
+    });
+}
 
 
 
@@ -20,4 +37,5 @@ const getAllMidias = (req,res) => {
 
 
 
-export { getAllMidias };
+
+export { getAllMidias, getById };
